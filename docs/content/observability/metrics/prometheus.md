@@ -70,16 +70,16 @@ _Optional, Default=false_
 
 Enable metrics on routers.
 
-```toml tab="File (TOML)"
-[metrics]
-  [metrics.prometheus]
-    addRoutersLabels = true
-```
-
 ```yaml tab="File (YAML)"
 metrics:
   prometheus:
     addRoutersLabels: true
+```
+
+```toml tab="File (TOML)"
+[metrics]
+  [metrics.prometheus]
+    addRoutersLabels = true
 ```
 
 ```bash tab="CLI"
